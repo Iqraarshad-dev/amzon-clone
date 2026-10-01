@@ -1,3 +1,8 @@
 export default function Home() {
-  return <main style={{padding:20}}><h1>Amazon Clone LIVE ✅</h1><p>Site is working</p></main>
+  return (
+    <div style={{ padding: "20px" }}>
+      <h1>Amazon Clone is LIVE</h1>
+      <p>If you see this, deployment is fixed!</p>
+    </div>
+  );
 }
