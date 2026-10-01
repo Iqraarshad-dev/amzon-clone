@@ -6,8 +6,12 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'fakestoreapi.com',
       },
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+export default nextConfig;
